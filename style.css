@@ -1,0 +1,13 @@
+body {
+    width: 1440px;
+}
+
+.topmenu {
+    display: flex; 
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.menu-icons > img {
+    padding: 0.5rem;
+}

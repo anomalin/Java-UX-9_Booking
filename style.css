@@ -1,13 +1,61 @@
+/* @media (max-width: 1440){
+    .main-content{
+        width: 100%;
+    } 
+} */
+
+
 body {
     width: 1440px;
+    font-size: 16px;
 }
 
 .topmenu {
-    display: flex; 
+    display: flex;
     flex-direction: row;
     justify-content: space-between;
 }
 
-.menu-icons > img {
+.menu-icons>img {
     padding: 0.5rem;
+}
+
+/* worker boxes */
+.workers {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.workers * {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    border: 0.5px solid black;
+    background-color: #E9E7E7;
+    width: 54px;
+    height: 63px;
+    /* align-content: center; */
+}
+
+.schedule-box-worker {
+    color: #03045E;
+}
+
+.schedule-box-grey {
+    background-color: #E9E7E7;
+}
+
+.schedule-box-green {
+    background-color: #00FF73;
+}
+
+.schedule-box-orange {
+    background-color: #FFB200;
+    border-style: dashed;
+}
+
+.schedule-box-red {
+    background-color: #FF0000;
 }
